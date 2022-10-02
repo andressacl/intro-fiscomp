@@ -15,9 +15,9 @@
             end do
         end do
 
-        do i = 1, 4
+       do i = 1, 4
             sum(i) = sum(i)/N
-        end do
+       end do
 
        write(*,*) '<x> = ', sum(1) 
        write(*,*) '<x²> =', sum(2)
