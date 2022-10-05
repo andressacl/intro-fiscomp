@@ -59,8 +59,8 @@ c       Contar andarilhos para cada número de passos
 
 c       Média das posições
 
-        sum1 = sum1/N
-        sum2 = sum2/N
+        sum1 = sum1/M
+        sum2 = sum2/M
 
 c       forma estatistica
         write(*,*) 'Resultado estatístico: '
