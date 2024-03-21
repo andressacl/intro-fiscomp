@@ -1,0 +1,466 @@
+# -*- sh -*-
+# GraceGTK project file
+#
+@version 1010300
+@page size 704, 497
+@page scroll 5%
+@page inout 5%
+@link page off
+@ GUI Toolbar on
+@ GUI Toolbar Buttons (on ,on ,on ,on ,on ,off)
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map font 14 to "ZapfChancery-MediumItalic", "ZapfChancery-MediumItalic"
+@map font 15 to "PazoMathBlackboardBold", "Palatino-Bold"
+@map font 16 to "AvantGarde-Book", "AvantGarde-Book"
+@map font 17 to "AvantGarde-BookOblique", "AvantGarde-BookOblique"
+@map font 18 to "AvantGarde-Demi", "AvantGarde-Demi"
+@map font 19 to "AvantGarde-DemiOblique", "AvantGarde-DemiOblique"
+@map font 20 to "Bookman-Light", "Bookman-Light"
+@map font 21 to "Bookman-LightItalic", "Bookman-LightItalic"
+@map font 22 to "Bookman-Demi", "Bookman-Demi"
+@map font 23 to "Bookman-DemiItalic", "Bookman-DemiItalic"
+@map font 24 to "NewCenturySchlbk-Roman", "NewCenturySchlbk-Roman"
+@map font 25 to "NewCenturySchlbk-Italic", "NewCenturySchlbk-Italic"
+@map font 26 to "NewCenturySchlbk-Bold", "NewCenturySchlbk-Bold"
+@map font 27 to "NewCenturySchlbk-BoldItalic", "NewCenturySchlbk-BoldItalic"
+@map font 28 to "Palatino-Roman", "Palatino-Roman"
+@map font 29 to "Palatino-Bold", "Palatino-Bold"
+@map font 30 to "Palatino-Italic", "Palatino-Italic"
+@map font 31 to "Palatino-BoldItalic", "Palatino-BoldItalic"
+@map font 32 to "Helvetica-Narrow", "Helvetica-Narrow"
+@map font 33 to "Helvetica-Narrow-Oblique", "Helvetica-Narrow-Oblique"
+@map font 34 to "CALLIG15", "CALLIG15"
+@map font 35 to "WNCYR10", "WNCYR10"
+@map font 36 to "LaTeX-roman", "LaTeX-roman"
+@map font 37 to "LaTeX-italic", "LaTeX-italic"
+@map font 38 to "LaTeX-bold", "LaTeX-bold"
+@map font 39 to "LaTeX-sanserif", "LaTeX-sanserif"
+@map font 40 to "LMMathItalic10-Regular", "LMMathItalic10-Regular"
+@map font 41 to "LMMathItalic10-Bold", "LMMathItalic10-Bold"
+@map font 42 to "Utopia-Regular", "Utopia-Regular"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@map color 16 to (135, 206, 235), "SkyBlue"
+@map color 17 to (106, 90, 205), "SlateBlue"
+@map color 18 to (72, 61, 139), "DarkSlateBlue"
+@map color 19 to (25, 25, 112), "MidnightBlue"
+@map color 20 to (127, 255, 212), "aquamarine1"
+@map color 21 to (118, 238, 198), "aquamarine2"
+@map color 22 to (102, 205, 17), "aquamarine3"
+@map color 23 to (69, 139, 116), "aquamarine4"
+@map color 24 to (255, 215, 0), "gold1"
+@map color 25 to (238, 201, 0), "gold2"
+@map color 26 to (205, 173, 0), "gold3"
+@map color 27 to (139, 117, 0), "gold4"
+@map color 28 to (204, 204, 204), "grey80"
+@map color 29 to (153, 153, 153), "grey60"
+@map color 30 to (102, 102, 102), "grey40"
+@map color 31 to (77, 77, 77), "grey30"
+@reference date 0
+@ date auto on
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 0.600000
+@default symbol size 0.600000
+@default sformat "%.8g"
+@default locale on
+@default image save 0
+@background color 0
+@page background fill on
+@timestamp on
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp just 0
+@timestamp char size 0.500000
+@timestamp linestyle 0
+@timestamp fill pattern 0
+@timestamp fill color 1
+@timestamp def "Sat Oct  8 16:00:31 2022"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 0, 0, 10000, 5.5
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title "Entropia vs Tempo (100 passos)"
+@    title layer 50
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    title just 4
+@    title offset 0.000000 , 0.000000
+@    subtitle ""
+@    subtitle layer 50
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    subtitle just 4
+@    subtitle offset 0.000000 , 0.000000
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  layer 50
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "Tempo (No de passos)"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 0.800000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 2000
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 0.600000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  layer 50
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Entropia"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 0.800000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 0.600000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend layer 50
+@    legend loctype view
+@    legend 0.85         ,0.8
+@    legend box color 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 0.800000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame layer 50
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 layer 50
+@    s0 type xy
+@    s0 symbol 0
+@    s0 symbol size 0.600000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 symbol start 0
+@    s0 line type 1
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 2
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 0.500000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 avalue skip 0 , 0
+@    s0 errorbar on
+@    s0 errorbar place normal
+@    s0 errorbar color 0
+@    s0 errorbar pattern 0
+@    s0 errorbar size 0.500000
+@    s0 errorbar linewidth 0.0
+@    s0 errorbar linestyle 0
+@    s0 errorbar riser linewidth 0.0
+@    s0 errorbar riser linestyle 0
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.000000
+@    s0 legend on
+@    s0 legend  ""
+@    s0 comment ""
+@g0 hidden false
+@ TYPE xy
+@ TARGET G0.S0
+100 0.078607157
+200 0.48439238
+300 0.86700565
+400 1.1735988
+500 1.4274605
+600 1.6736522
+700 1.848204
+800 2.0167489
+900 2.1630254
+1000 2.3056088
+1100 2.4193044
+1200 2.5205696
+1300 2.6010549
+1400 2.6943135
+1500 2.8075185
+1600 2.8924453
+1700 2.9855483
+1800 3.0332427
+1900 3.1099932
+2000 3.1692112
+2100 3.2044442
+2200 3.2988734
+2300 3.3536112
+2400 3.3759766
+2500 3.4360948
+2600 3.4759152
+2700 3.5510552
+2800 3.5827141
+2900 3.6190741
+3000 3.6807508
+3100 3.6903977
+3200 3.7493365
+3300 3.7866504
+3400 3.8215182
+3500 3.8413901
+3600 3.8691568
+3700 3.9138522
+3800 3.9477868
+3900 3.9566407
+4000 4.0019736
+4100 4.0432754
+4200 4.0572643
+4300 4.0944872
+4400 4.1207132
+4500 4.1114497
+4600 4.160502
+4700 4.1847081
+4800 4.2143416
+4900 4.2217932
+5000 4.268775
+5100 4.2745147
+5200 4.3199539
+5300 4.3183355
+5400 4.3620253
+5500 4.3809667
+5600 4.3819666
+5700 4.4369454
+5800 4.4342852
+5900 4.4343305
+6000 4.46667
+6100 4.4909596
+6200 4.5199523
+6300 4.5383768
+6400 4.550725
+6500 4.5519857
+6600 4.5892196
+6700 4.5767369
+6800 4.6211114
+6900 4.6418276
+7000 4.6459417
+7100 4.6750159
+7200 4.699997
+7300 4.6956348
+7400 4.7242231
+7500 4.7168784
+7600 4.7464366
+7700 4.7592592
+7800 4.7783151
+7900 4.7904196
+8000 4.7853703
+8100 4.8080392
+8200 4.8180318
+8300 4.8573289
+8400 4.8572931
+8500 4.8735747
+8600 4.8817081
+8700 4.9051137
+8800 4.9158168
+8900 4.9138112
+9000 4.9462023
+9100 4.9574432
+9200 4.9470139
+9300 4.9740033
+9400 4.976368
+9500 5.0071774
+9600 5.0024028
+9700 5.0405335
+9800 5.0337496
+9900 5.042038
+10000 5.0447302
+&

@@ -1,0 +1,4 @@
+ @ title "Erros das derivadas"
+@xaxis label "h"
+@yaxis label "Erro absoluto"
+@set 0 label "D. 1a 3 pontos"
